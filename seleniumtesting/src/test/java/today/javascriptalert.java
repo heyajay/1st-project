@@ -29,6 +29,7 @@ driver.findElement(By.xpath("//button[text()='Prompt Pop up']")).click();
         System.out.println("yes");
         alt.sendKeys("Yes");
         alt.accept();
+        System.out.println("git");
         /*driver.findElement(By.xpath("//button[text()='Prompt Pop up']")).click();
         Alert alt1=driver.switchTo().alert();
 System.out.println("no");

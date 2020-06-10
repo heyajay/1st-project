@@ -11,6 +11,8 @@ public class factorial {
 
 	public static void main(String[] args) {
 		System.out.println(fac(5));
+		System.out.println("git thitd command");
+
 		// TODO Auto-generated method stub
 //without recursion
 	/*	int r=0;

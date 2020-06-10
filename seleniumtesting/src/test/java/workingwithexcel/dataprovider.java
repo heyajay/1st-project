@@ -19,6 +19,7 @@ public class dataprovider {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get("https://mail.google.com");
+		System.out.println("git");
 	}
 	@Test
 	public void email() {

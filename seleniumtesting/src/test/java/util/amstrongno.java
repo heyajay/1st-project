@@ -21,5 +21,5 @@ public class amstrongno {
 		System.out.println("it is amstrong");
 	else 
 		System.out.println("not a amstrong no");
-	
+	System.out.println("git second command");
 }}

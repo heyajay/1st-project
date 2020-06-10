@@ -6,7 +6,8 @@ public class fibonacseries {
 		// TODO Auto-generated method stub
 int n=1;
 	while(n!=0) {
-		
+		System.out.println("git furthss command");
+
 	}
 	}
 

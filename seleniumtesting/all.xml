@@ -7,7 +7,7 @@
       <class name="testngpack.googleface"/>
       <class name="testngpack.assertion"/>
       <class name="testngpack.tentimesrun"/>
-      <class name="testngpack.depent"/>
+      <class name="testngpack.depent.git"/>
     </classes>
   </test> <!-- Default test -->
 </suite> <!-- Default suite -->

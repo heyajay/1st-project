@@ -21,7 +21,8 @@ public void mail() {
 	 driver=new ChromeDriver();
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-	driver.get("https://www.flipkart.com/");}
+	driver.get("https://www.flipkart.com/");
+	System.out.println("git");}
 	@Test
 	public void fgh() {
        // driver.findElement(By.partialLinkText("New to Flipkart")).click();					

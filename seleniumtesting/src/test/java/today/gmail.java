@@ -19,7 +19,8 @@ public class gmail {
 		 driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.get("https://www.flipkart.com/");}
+		driver.get("https://www.flipkart.com/");
+		System.out.println("git");}
 		@Test
 		public void fgh() {
 			
