@@ -23,9 +23,10 @@ WebDriver driver;
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get("https://www.zoopla.co.uk/");}
+	
 		@Test
 		public void go() throws InterruptedException {
-			
+			System.out.println("first git commit at night");
 		driver.findElement(By.xpath("//input[@id='search-input-location']")).sendKeys("london");
 	driver.findElement(By.xpath("//button[text()='Search']")).click();
 	  List<WebElement> list =driver.findElements(By.xpath("//a[@class='listing-results-price text-price']"));
